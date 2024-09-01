@@ -1,0 +1,41 @@
+body { 
+
+    background-image: url('Img/fundo2.jpg');
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li { /*li com borda branca */
+    background-color: transparent;
+    border: 2px solid white;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px 0;
+}
+p { /* fonte bold */
+    font-weight: bold;
+    color:white;
+    padding: 20px;
+}
+h1 { /* fonte bold */
+    font-weight: bold;
+    color: white;
+}
+
+a { /* fonte bold */
+    text-decoration: none; 
+    color: white; 
+}
+
+a:hover { /* para ficar vermelho quando passa o mouse em cima */
+    color: red; 
+    text-decoration: underline;
+}
